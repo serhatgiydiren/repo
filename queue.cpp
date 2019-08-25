@@ -6,7 +6,7 @@ void queue_samples()
  for(unsigned i=0;i<elements.size();i++) q.push(elements[i]);
  // 8
  cout << q.front() << endl;
- // 8
+ // 7
  cout << q.back() << endl;
  // 8 3 9 1 7
  while(!q.empty())
