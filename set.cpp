@@ -32,7 +32,7 @@ void set_samples()
  print_containter(ms); // A A C E E E H L M P R S X 
  cout << ms.erase('Q') << endl; // 0 (the number of elements erased)
  cout << (ms.find('E')!=ms.end()) << endl; // 1
- cout << ms.erase('E') << endl; // 1 (the number of elements erased)
+ cout << ms.erase('E') << endl; // 3 (the number of elements erased)
  cout << (ms.find('E')!=ms.end()) << endl; // 0
  print_containter(ms); // A A C H L M P R S X 
 
@@ -41,7 +41,7 @@ void set_samples()
  print_containter(ums); // L P R E E E S H C A A X M 
  cout << ums.erase('Q') << endl; // 0 (the number of elements erased)
  cout << (ums.find('E')!=ums.end()) << endl; // 1
- cout << ums.erase('E') << endl; // 1 (the number of elements erased)
+ cout << ums.erase('E') << endl; // 3 (the number of elements erased)
  cout << (ums.find('E')!=ums.end()) << endl; // 0
  print_containter(ums); // L P R S H C A A X M 
 }
