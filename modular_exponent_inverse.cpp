@@ -1,3 +1,5 @@
+const int MDL=1e9+7;
+
 long long mod_exp(long long a, long long b, const long long &m=MDL)
 {
  long long res=1;
