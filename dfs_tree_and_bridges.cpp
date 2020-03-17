@@ -1,3 +1,5 @@
+// Review the blog : https://codeforces.com/blog/entry/68138
+
 // https://serhatgiydiren.github.io/
 
 #include <bits/stdc++.h>
