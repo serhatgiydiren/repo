@@ -1,4 +1,6 @@
-// Review the blog : https://codeforces.com/blog/entry/68138
+// https://codeforces.com/blog/entry/68138
+
+// https://codeforces.com/contest/118/problem/E
 
 // https://serhatgiydiren.github.io/
 
@@ -25,7 +27,7 @@ void dfs_tree(const int &node, const int &parent=-1)
  dfst[node].parent=parent;
  for(auto ev : g[node])
  {
-  cerr << node << " " << ev << endl;
+  //cerr << node << " " << ev << endl;
   if (ev==parent) continue;
   if (vis[ev]) dfst[node].back_edges.push_back(ev);
   else
@@ -54,7 +56,7 @@ int traverse_bridge(const int &node)
 {
  if (vis[node]) return dp_bridge[node];
  vis[node]=true;
- cerr << "node=" << node << " dp_bridge[node]=" << dp_bridge[node] << endl;
+ //cerr << "node=" << node << " dp_bridge[node]=" << dp_bridge[node] << endl;
  for(auto ev : dfst[node].back_edges)
  {
   if (!vis[ev])
@@ -63,22 +65,44 @@ int traverse_bridge(const int &node)
    dp_bridge[ev]++;
   }
  }
- cerr << "after removing down nodes dp_bridge[node]=" << dp_bridge[node] << endl;
+ //cerr << "after removing down nodes dp_bridge[node]=" << dp_bridge[node] << endl;
  for(auto ev : g[node]) if (!vis[ev]) dp_bridge[node]+=traverse_bridge(ev);
- cerr << "returning for node " << node << " dp_bridge[node]=" << dp_bridge[node] << endl;
+ //cerr << "returning for node " << node << " dp_bridge[node]=" << dp_bridge[node] << endl;
  return dp_bridge[node];
 }
 
-void find_bridges(const int &root)
+int find_bridges(const int &root)
 {
+ int bridge_count=0;
  dp_bridge.resize(v);
  for(int i=0;i<v;i++) vis[i]=false;
  traverse_bridge(root);
  for(int i=0;i<v;i++)
  {
-  cerr << "i=" << i << " dp_bridge[i]=" << dp_bridge[i] << endl;
-  if (dp_bridge[i]==0 && dfst[i].parent!=-1) cerr << "bridge = " << i << " " << dfst[i].parent << endl;
+  //cerr << "i=" << i << " dp_bridge[i]=" << dp_bridge[i] << endl;
+  if (dp_bridge[i]==0 && dfst[i].parent!=-1)
+  {
+   bridge_count++;
+   //cerr << "bridge = " << i << " " << dfst[i].parent << endl;
+  }
  }
+ //cerr << "bridge_count = " << bridge_count << endl;
+ return bridge_count;
+}
+
+void traverse_for_directed_edges(const int &node)
+{
+ if (vis[node]) return;
+ vis[node]=true;
+ for(auto ev : dfst[node].span_edges) if (!vis[ev]) cout << 1+node << " " << 1+ev << endl;
+ for(auto ev : dfst[node].back_edges) if (!vis[ev]) cout << 1+ev << " " << 1+node << endl;
+ for(auto ev : g[node]) traverse_for_directed_edges(ev); 
+}
+
+void print_directed_edges(const int &root)
+{
+ for(int i=0;i<v;i++) vis[i]=false;
+ traverse_for_directed_edges(root);
 }
 
 void solve(const int &test_id)
@@ -96,8 +120,9 @@ void solve(const int &test_id)
  dfst.resize(v);
  int root=0;
  dfs_tree(root);
- print_dfst();
- find_bridges(root);
+ //print_dfst();
+ if (find_bridges(root)) cout << 0 << endl;
+ else print_directed_edges(root);
 }
             
 void solve_cases()
