@@ -1,10 +1,12 @@
 ### Binary Tree
 * [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)
 * [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
+* [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
 * [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)
 * [____](___)
 
 ### Binary Search Tree
+* [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)
 * [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)
 * [____](___)
 
@@ -12,9 +14,12 @@
 * [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)
 * [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
 * [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
+* [____](___)
 
 ### Others
 * [3Sum](https://leetcode.com/problems/3sum/)
+* [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
+* [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)
 * [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
 * [Count and Say](https://leetcode.com/problems/count-and-say/)
 * [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)
@@ -27,6 +32,7 @@
 * [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
 * [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)
 * [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)
+* [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)
 * [Permutations](https://leetcode.com/problems/permutations/)
 * [Plus One](https://leetcode.com/problems/plus-one/)
 * [Remove Element](https://leetcode.com/problems/remove-element/)
@@ -42,3 +48,4 @@
 * [Two Sum](https://leetcode.com/problems/two-sum/)
 * [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
 * [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)
+* [____](___)
