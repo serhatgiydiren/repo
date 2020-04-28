@@ -1,3 +1,13 @@
+### Binary Tree
+* [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)
+* [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
+* [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)
+* [____](___)
+
+### Binary Search Tree
+* [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)
+* [____](___)
+
 ### Linked List
 * [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)
 * [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
@@ -5,6 +15,7 @@
 
 ### Others
 * [3Sum](https://leetcode.com/problems/3sum/)
+* [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
 * [Count and Say](https://leetcode.com/problems/count-and-say/)
 * [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)
 * [Group Anagrams](https://leetcode.com/problems/group-anagrams/)
@@ -14,6 +25,7 @@
 * [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
 * [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
 * [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
+* [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)
 * [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)
 * [Permutations](https://leetcode.com/problems/permutations/)
 * [Plus One](https://leetcode.com/problems/plus-one/)
@@ -23,7 +35,10 @@
 * [Roman to Integer](https://leetcode.com/problems/roman-to-integer/)
 * [Rotate Image](https://leetcode.com/problems/rotate-image/)
 * [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
+* [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)
+* [Sqrt(x)](https://leetcode.com/problems/sqrtx/)
 * [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)
+* [Subsets](https://leetcode.com/problems/subsets/)
 * [Two Sum](https://leetcode.com/problems/two-sum/)
 * [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
 * [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)
