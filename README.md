@@ -12,6 +12,7 @@
 
 ### Linked List
 * [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)
+* [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)
 * [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
 * [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
 * [____](___)
@@ -29,6 +30,7 @@
 * [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)
 * [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
 * [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
+* [LRU Cache](https://leetcode.com/problems/lru-cache/)
 * [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
 * [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)
 * [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)
@@ -42,10 +44,12 @@
 * [Rotate Image](https://leetcode.com/problems/rotate-image/)
 * [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
 * [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)
+* [Single Number](https://leetcode.com/problems/single-number/)
 * [Sqrt(x)](https://leetcode.com/problems/sqrtx/)
 * [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)
 * [Subsets](https://leetcode.com/problems/subsets/)
 * [Two Sum](https://leetcode.com/problems/two-sum/)
+* [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
 * [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
 * [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)
 * [____](___)
