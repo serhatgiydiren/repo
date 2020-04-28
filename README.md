@@ -1,7 +1,10 @@
 ### Linked List
 * [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)
+* [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
 
 ### Others
+* [3Sum](https://leetcode.com/problems/3sum/)
+* [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)
 * [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
 * [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
 * [Reverse Integer](https://leetcode.com/problems/reverse-integer/)
