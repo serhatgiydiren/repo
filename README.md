@@ -6,6 +6,7 @@
 ### Others
 * [3Sum](https://leetcode.com/problems/3sum/)
 * [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)
+* [Implement strStr()](https://leetcode.com/problems/implement-strstr/)
 * [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)
 * [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
 * [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
@@ -13,6 +14,8 @@
 * [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
 * [Reverse Integer](https://leetcode.com/problems/reverse-integer/)
 * [Roman to Integer](https://leetcode.com/problems/roman-to-integer/)
+* [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
 * [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)
 * [Two Sum](https://leetcode.com/problems/two-sum/)
 * [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
+* [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)
