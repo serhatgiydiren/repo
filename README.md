@@ -1,4 +1,4 @@
-A | B | C
+Linked List | B | C
 ------------ | ------------- | -------------
-[Two Sum](https://leetcode.com/problems/two-sum/) | X | X
+[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [Two Sum](https://leetcode.com/problems/two-sum/) | X
 Y | Y | Y
