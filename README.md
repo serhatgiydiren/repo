@@ -9,6 +9,7 @@
 * [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)
 * [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
 * [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
+* [Remove Element](https://leetcode.com/problems/remove-element/)
 * [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
 * [Reverse Integer](https://leetcode.com/problems/reverse-integer/)
 * [Roman to Integer](https://leetcode.com/problems/roman-to-integer/)
