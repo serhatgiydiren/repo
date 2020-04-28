@@ -12,6 +12,7 @@
 
 ### Linked List
 * [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)
+* [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)
 * [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)
 * [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
 * [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
@@ -23,6 +24,7 @@
 * [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)
 * [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
 * [Count and Say](https://leetcode.com/problems/count-and-say/)
+* [Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/)
 * [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)
 * [Group Anagrams](https://leetcode.com/problems/group-anagrams/)
 * [Implement strStr()](https://leetcode.com/problems/implement-strstr/)
@@ -31,8 +33,10 @@
 * [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
 * [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
 * [LRU Cache](https://leetcode.com/problems/lru-cache/)
+* [Majority Element](https://leetcode.com/problems/majority-element/)
 * [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
 * [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)
+* [Min Stack](https://leetcode.com/problems/min-stack/)
 * [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)
 * [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)
 * [Permutations](https://leetcode.com/problems/permutations/)
