@@ -101,7 +101,7 @@ public:
  vector < int > matchingsU()
  {
   vector < int > res(m);
-  for(int i=1;i<=m+1;i++)
+  for(int i=1;i<m+1;i++)
   {
    if (pairU[i]==0) res[i-1]=-1;
    else res[i-1]=pairU[i];
