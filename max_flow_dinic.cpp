@@ -1,3 +1,15 @@
+// https://serhatgiydiren.github.io
+
+#include <bits/stdc++.h>
+
+using namespace std;
+
+#ifdef LOCAL
+#include "debug.h"
+#else
+#define D(...) 404
+#endif
+
 struct FlowEdge
 {
  int v, u, cap, flow = 0;
@@ -80,3 +92,41 @@ struct Dinic
   return f;
  }
 };
+
+void solve(const int &test_id)
+{
+ int V,E;
+ int v,u,cap;
+ cin >> V >> E;
+ Dinic d(V,0,V-1);
+ for (int i=0;i<E;i++)
+ {
+  cin >> v >> u >> cap;
+  d.add_edge(--v,--u,cap);
+ }
+ cout << d.flow() << endl;
+}
+            
+void solve_cases()
+{
+ int test_cases=1;
+ //cin >> test_cases;
+ for(int i=1;i<=test_cases;i++) solve(i);
+}
+
+void fast_io()
+{
+ ios::sync_with_stdio(false);
+ srand(time(NULL));
+ cin.tie(0);
+ cout.tie(0);
+ cout << fixed << setprecision(15);
+ cerr << fixed << setprecision(15);
+}
+
+int main()
+{
+ fast_io();
+ solve_cases();
+ return EXIT_SUCCESS;
+}
