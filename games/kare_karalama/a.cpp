@@ -74,15 +74,18 @@ void read_process(vector < vector < int > > &_main,
 
 void ut(const int &idx=0, vector < vector < int > > ch={})
 {
+ vector < vector < int > > counts(n);
+ for(int i=0;i<n;i++)
+ {
+  vector < int > temp(n);
+  for(int j=0;j<idx;j++) temp[j]=ch[j][i];
+  counts[i]=parse(temp);
+  if (counts[i].size()>cols[i].size()) return;
+  for(unsigned k=0;k<min(counts[i].size(),cols[i].size());k++) if (counts[i][k]>cols[i][k]) return;
+ }
+
  if (idx==n)
  {
-  vector < vector < int > > counts(n);
-  for(int i=0;i<n;i++)
-  {
-   vector < int > temp(n);
-   for(int j=0;j<n;j++) temp[j]=ch[j][i];
-   counts[i]=parse(temp);
-  }
   if (counts==cols)
   {
    string res="";
